@@ -1,0 +1,63 @@
+<resources>
+
+    <string name="app_name">OnlineRadio</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_online_radio">OnlineRadio</string>
+<string-array name="radio_names">
+    <item>Hit FM (Ukraine)</item>
+    <item>Europa plus 128</item>
+    <item>Radio NS</item>
+    <item>Radio KN</item>
+    <item>Russkoe radio (Ukraine) (128kbs)</item>
+    <item>Sun Radio (skazki) (64kbps)</item>
+    <item>Sun Radio (detskie pesenki 64kbps)</item>
+    <item>Kids Hits 160kbps</item>
+    <item>Tengri FM</item>
+    <item>Radonezh 24kbps</item>
+    <item>Kabriolet 128kbps</item>
+    <item>Zolotoj Vek 128kbps</item>
+    <item>V ritme90-h 128kbps</item>
+    <item>Natali 128kbps</item>
+    <item>Solnechnoe 128kbps</item>
+    <item>Bisness FM 64kbps</item>
+    <item>Kazantip FM 96kbps</item>
+    <item>Radio mir 128kbps</item>
+    <item>Radio ROKS 128kbps</item>
+    <item>Radio Teks 256kbps</item>
+    <item>Yaponskoe radio</item>
+    <item>Russkaya sluzhba novostej 96kbps</item>
+    <item>Red radio 128kbps</item>
+</string-array>
+<string-array name="radio_urls">
+    <item>http://online-hitfm.tavrmedia.ua:8000/HitFM</item>
+    <item>http://webcast.emg.fm:55655/europaplus128.mp3</item>
+    <item>http://live26.kiwi.kz:8000/radions</item>
+    <item>http://kn.webhop.org:7000/efir2</item>
+    <item>http://online-rusradio.tavrmedia.ua:8000/RusRadio</item>
+    <item>http://radio.sunradio.ru/childtales64</item>
+    <item>http://radio.sunradio.ru/children64</item>
+    <item>http://81.88.211.216:8000/kidshits_mp3_320</item>
+    <item>http://195.210.47.197:8000/live</item>
+    <item>http://195.151.189.25/RAD.mp3</item>
+    <item>http://setmedia.ru:8000/high3</item>
+    <item>http://setmedia.ru:8000/high</item>
+    <item>http://webcast.apexradio.ru:8000/90?tyurtyurtuy</item>
+    <item>http://setmedia.ru:8000/high4</item>
+    <item>http://setmedia.ru:8000/high2</item>
+    <item>http://bfmstream.bfm.ru:8004/fm64</item>
+    <item>http://radio.kazantip-fm.ru:8000/mp396</item>
+    <item>http://radiomir.fm:8000/mir_128</item>
+    <item>http://online-radioroks.tavrmedia.ua:8000/RadioROKS</item>
+    <item>http://radio.north.kz:8000/radiotex</item>
+    <item>http://japanradio.ru:8000/play</item>
+    <item>http://stream04.media.rambler.ru/rsn96.mp3</item>
+    <item>http://stream.red-radio.ru:8080/red-radio128</item>
+</string-array>
+<string-array name="setup_options">
+	<item>Setup Background Color</item>
+	<item>Main Background Color</item>
+	<item>Current Track Text Color</item>
+	<item>Radio List Background Color</item>
+</string-array>
+</resources>

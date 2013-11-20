@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000" >
+    <TextView
+        android:id="@+id/current_station"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="BLANK"
+        android:textColor="#ff00cf00"/>
+<LinearLayout
+    android:id="@+id/button_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true">
+    <Button 
+       android:onClick="StartStopPlaying"
+       android:id="@+id/start_stop_button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Wait"/>
+    <Button 
+       android:onClick="Setup"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Setup"/>
+</LinearLayout>
+<ListView
+    android:id="@+id/radio_list"
+    android:layout_margin="10dip"
+    android:background="#ff003f7f"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/current_station"
+    android:layout_above="@id/button_layout"
+    />
+<ProgressBar
+    android:id="@+id/progress_bar"
+    android:layout_width="60dip"
+    android:layout_height="60dip"
+    android:layout_centerInParent="true" />
+</RelativeLayout>

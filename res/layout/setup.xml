@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/setup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff5f5f5f"
+     >
+    <Spinner
+        android:id="@+id/setting_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="5dip"/>
+    <RelativeLayout
+        android:id="@+id/frame"
+        android:background="#ff000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:layout_below="@+id/setting_selector">
+        <TextView
+        android:id="@+id/current_radio"
+        android:text="Current Radio"
+        android:textColor="#ff00cf00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip" />
+        <TextView
+        android:id="@+id/radio1"
+        android:text="Radio 1"
+        android:textColor="#ff000000"
+        android:background="#ff00003f"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_below="@+id/current_radio"/>
+        <TextView
+        android:id="@+id/radio2"
+        android:text="Radio 2"
+        android:textColor="#ff000000"
+        android:background="#ff00003f"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_below="@+id/radio1"/>
+        <TextView
+        android:id="@+id/radio3"
+        android:text="Radio 3"
+        android:textColor="#ff000000"
+        android:background="#ff00003f"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_below="@+id/radio2"/>
+    </RelativeLayout>
+    <SeekBar
+        android:id="@+id/red_seek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginBottom="5dip"
+        android:layout_below="@+id/frame"/>
+    <SeekBar
+        android:id="@+id/green_seek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginBottom="5dip"
+        android:layout_below="@+id/red_seek"/>
+
+    <SeekBar
+        android:id="@+id/blue_seek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginBottom="5dip"
+        android:layout_below="@+id/green_seek" />
+
+</RelativeLayout>
