@@ -24,6 +24,13 @@
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:text="Wait"/>
+    <Button
+       android:id="@+id/record_button" 
+       android:onClick="StartStopRecording"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Record"
+       />
     <Button 
        android:onClick="Setup"
        android:layout_width="wrap_content"
